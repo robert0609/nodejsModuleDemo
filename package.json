@@ -1,0 +1,23 @@
+{
+  "name": "yangxutest",
+  "version": "1.0.0",
+  "description": "test module load in nodejs",
+  "main": "./src/start.js",
+  "scripts": {
+    "dev": "node ./node_modules/babel-cli/bin/babel-node.js ./src/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yangxu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "mocha": "^3.3.0"
+  }
+}
